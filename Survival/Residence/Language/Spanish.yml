@@ -14,7 +14,7 @@ Language:
     Amount: '&Cantidad No Válida...'
     Cost: '&cCosto No Válido...'
     Days: '&cNúmero de Días no permitido...'
-    Material: '&cInvalid Material...'
+    Material: '&cMaterial No Valido...'
     Boolean: '&cCantidad No Válido, Debe ser &6true(t) &cor &6false(f)'
     Area: '&cInvalid Area...'
     Group: '&cGrupo No Válido...'
