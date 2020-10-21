@@ -6,13 +6,13 @@
 Language:
   Invalid:
     Player: '&cNombre De Usuario No Valido...'
-    PlayerOffline: '&cPlayer is offline'
+    PlayerOffline: '&cEl Jugador No Se Encuentra'
     World: '&cMundo No Disponible...'
-    Residence: '&cInvalid Residence...'
+    Residence: '&cResidencia No Válida...'
     Subzone: '&cSubzona No Válida...'
-    Direction: '&cInvalid Direction...'
+    Direction: '&cDirección No Válida...'
     Amount: '&Cantidad No Válida...'
-    Cost: '&cInvalid Cost...'
+    Cost: '&cCosto No Válido...'
     Days: '&cNúmero de Días no permitido...'
     Material: '&cInvalid Material...'
     Boolean: '&cCantidad No Válido, Debe ser &6true(t) &cor &6false(f)'
