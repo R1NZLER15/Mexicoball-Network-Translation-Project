@@ -6,55 +6,55 @@
 Language:
   Invalid:
     Player: '&cNombre De Usuario No Valido...'
-    PlayerOffline: '&cPlayer is offline'
+    PlayerOffline: '&Jugador Desconectado'
     World: '&cInvalid world...'
-    Residence: '&cInvalid Residence...'
+    Residence: '&cResidencia No Válida...'
     Subzone: '&cInvalid Subzone...'
-    Direction: '&cInvalid Direction...'
+    Direction: '&cDirección No Válida...'
     Amount: '&cInvalid Amount...'
-    Cost: '&cInvalid Cost...'
+    Cost: '&cCosto No Permitido...'
     Days: '&cInvalid number of days...'
-    Material: '&cInvalid Material...'
+    Material: '&cMaterial No Valido...'
     Boolean: '&cInvalid value, must be &6true(t) &cor &6false(f)'
-    Area: '&cInvalid Area...'
+    Area: '&cArea No Válida...'
     Group: '&cInvalid Group...'
-    MessageType: '&cMessage type must be enter or remove.'
+    MessageType: '&cEl Tipo De Mensaje Debe de Ser enter or remove.'
     Flag: '&cInvalid Flag...'
     FlagType:
-      Fail: '&cInvalid Flag... This flag can only be used on %1'
+      Fail: '&cFlag Invalida... Esta Flag Solo Puede Ser Usada En %1'
       Player: Player
       Residence: Residence
-    FlagState: '&cInvalid flag state, must be &6true(t)&c, &6false(f)&c, or &6remove(r)'
+    FlagState: '&cEl Estado De La Flag No Es Válido, Debeb Ser &6true(t)&c, &6false(f)&c, or &6remove(r)'
     List: '&eUnknown list type, must be &6blacklist &eor &6ignorelist.'
-    Page: '&eInvalid Page...'
+    Page: '&ePágina No Válida...'
     Help: '&cInvalid Help Page...'
-    NameCharacters: '&cName contained unallowed characters...'
+    NameCharacters: '&cEl Nombre Contiene Caracteres No Permitidos...'
     FromConsole: '&cYou can only use this in the console!'
-    Ingame: '&cYou can only use this in game!'
+    Ingame: '&cSolo Puedes Usar Esto Dentro Del Juego!'
   Area:
     Exists: '&cArea name already exists.'
-    Create: '&eResidence Area created, ID &6%1'
+    Create: '&eArea De Residencia Creada, ID &6%1'
     DiffWorld: '&cArea is in a different world from residence.'
-    Collision: '&cArea collides with residence &6%1'
+    Collision: '&cEl Área Esta Demasiado Cerca De La Residencia &6%1'
     SubzoneCollision: '&cArea collides with subzone &6%1'
-    NonExist: '&cNo such area exists.'
+    NonExist: '&cEsa Area No Existe.'
     InvalidName: '&cInvalid Area Name...'
-    ToSmallX: '&cYour &6X &cselection length (&6%1&c) is too small. &eAllowed &6%2
-      &eand more.'
+    ToSmallX: '&cLa &6X &cAnchura Seleccionada (&6%1&c) Es Demasiado Pequeña. &ePermitida &6%2
+      &eY Mas.'
     ToSmallY: '&cYour selection height (&6%1&c) is too small. &eAllowed &6%2 &eand
       more.'
-    ToSmallZ: '&cYour &6Z &cselection length (&6%1&c) is too small. &eAllowed &6%2
-      &eand more.'
-    ToBigX: '&cYour &6X &cselection length (&6%1&c) is too big. &eAllowed &6%2 &eand
-      less.'
+    ToSmallZ: '&cEl &6Z &cAnchura Seleccionada (&6%1&c) Es Demasiado Pequeña. &ePermitida &6%2
+      &Y Mas.'
+    ToBigX: '&cEl &6X &cAnchura Seleccionada (&6%1&c) Es Demasiado Grande. &ePermitida &6%2 &eY
+      Menos.'
     ToBigY: '&cYour selection height (&6%1&c) is too big. &eAllowed &6%2 &eand less.'
     ToBigZ: '&cYour &6Z &cselection length (&6%1&c) is too big. &eAllowed &6%2 &eand
       less.'
-    Rename: '&eRenamed area &6%1 &eto &6%2'
+    Rename: '&eEl Area Ha Sido Renombrada De &6%1 &eA &6%2'
     Remove: '&eRemoved area &6%1...'
     Name: '&eName: &2%1'
     ListAll: '&a{&eID:&c%1 &eP1:&c(%2,%3,%4) &eP2:&c(%5,%6,%7) &e(Size:&c%8&e)&a}'
-    RemoveLast: '&cCannot remove the last area in a residence.'
+    RemoveLast: '&cNo Se Puede Remover La Anerior Area En La Residencia.'
     NotWithinParent: '&cArea is not within parent area.'
     Update: '&eArea Updated...'
     MaxPhysical: '&eYou''ve reached the max physical areas allowed for your residence.'
