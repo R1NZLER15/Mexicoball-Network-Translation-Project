@@ -5,7 +5,7 @@
 
 Language:
   Invalid:
-    Player: '&cInvalid player name...'
+    Player: '&cNombre De Usuario No Valido...'
     PlayerOffline: '&cPlayer is offline'
     World: '&cInvalid world...'
     Residence: '&cInvalid Residence...'
