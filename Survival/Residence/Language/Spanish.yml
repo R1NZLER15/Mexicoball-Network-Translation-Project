@@ -444,13 +444,13 @@ Language:
       '4': '&8%1&e (&8%2&e)'
       Likes4: '&9Likes: &8%2'
   RandomTeleport:
-    TpLimit: '&eYou can''t teleport so fast, please wait &6%1 &esec and try again'
+    TpLimit: '&eYou can''t teleport so fast, Porfavor espera &6%1 &eSegundos e Intenta Nuevamente'
     TeleportSuccess: '&eTeleported to X:&6%1&e, Y:&6%2&e, Z:&6%3 &elocation'
     IncorrectLocation: '&6Could not find correct teleport location, please wait &e%1
       &6sec and try again.'
     Disabled: '&cRandom teleportation is disabled in this world'
-    TeleportStarted: '&eTeleportation started, don''t move for next &6%4 &esec.'
-    WorldList: '&ePossible worlds: &6%1'
+    TeleportStarted: '&eTeletransporte Iniciado, No Te Muevas Por &6%4 &eSegundos.'
+    WorldList: '&ePosibles Mundos: &6%1'
   Permissions:
     variableColor: '&f'
     permissionColor: '&6'
@@ -638,12 +638,12 @@ CommandHelp:
               - Sets selection area using the current WorldEdit selection.
         padd:
           Info:
-          - '&eUsage: &6/res padd <residence> [player]'
-          - Adds essential flags for player
-          Description: Add player to residence.
+          - '&eUso: &6/res padd <residencia> [Jugador]'
+          - Añade Permisos Escenciales a Un Jugador
+          Description: Añade a un Jugador a la Residencia.
         signconvert:
           Info:
-          - '&eUsage: &6/res signconvert'
+          - '&eUso: &6/res signconvert'
           - Will try to convert saved sign data from 3rd party plugin
           Description: Converts signs from ResidenceSign plugin
         listallhidden:
@@ -704,23 +704,23 @@ CommandHelp:
                 nueva és más grande.
         give:
           Info:
-          - '&eUsage: &6/res give <residence name> [player] <-s>'
-          - Gives your owned residence to target player
-          Description: Give residence to player.
+          - '&eUso: &6/res give <Residencia> [Jugador] <-s>'
+          - Transfiere de Propietario tu Residencia a un Jugador
+          Description: Otorgas la Residencia a un Jugador.
         renamearea:
           Info:
-          - '&eUsage: &6/res removeworld [residence] [oldAreaName] [newAreaName]'
-          Description: Rename area name for residence
+          - '&eUso: &6/res removeworld [Residencia] [Antígüa Área] [Nueva Área]'
+          Description: Renombra el Área de la Residencia
         contract:
           Info:
-          - '&eUsage: &6/res contract (residence) [amount]'
-          - Contracts residence in direction you looking.
-          - Residence name is optional
-          Description: Contracts residence in direction you looking
+          - '&eUso: &6/res contract (Residencia) [Cantidad]'
+          - Contrata la Residencia en la Dirección en la que Estás Mirando.
+          - El Nombre de la Residenca es Opcional
+          Description: Contrata la Residencia en la Dirección en la que Miras
         check:
           Info:
-          - '&eUsage: &6/res check [residence] [flag] (playername)'
-          Description: Check flag state for you
+          - '&eUso: &6/res check [Residencia] [flag] (Usuario)'
+          Description: Comprobar el Estado de los Permisos para tí
         gset:
           Info:
           - 'Uso: /res gset <residencia> [grupo] [flag] [true/false/remove]'
