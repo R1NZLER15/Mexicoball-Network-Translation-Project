@@ -1,0 +1,3 @@
+files:
+  - source: /en
+    translation: /es/%original_file_name%_%locale%.%file_extension%
