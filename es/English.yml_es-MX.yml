@@ -50,7 +50,7 @@ Language:
     Name: '&eNombre: &2%1'
     ListAll: '&a{&eID:&c%1 &eP1:&c(%2,%3,%4) &eP2:&c(%5,%6,%7) &e(Tamaño:&c%8&e)&a}'
     RemoveLast: '&cNo se puede eliminar la última área de una residencia.'
-    NotWithinParent: '&cArea is not within parent area.'
+    NotWithinParent: 'No está dentro del área principal.'
     Update: '&eÁrea actualizada...'
     MaxPhysical: '&eHas llegado al máximo de áreas físicas permitidas para tu residencia.'
     SizeLimit: '&eEl tamaño del Área no está dentro de tus límites permitidos.'
