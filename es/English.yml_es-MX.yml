@@ -50,14 +50,14 @@ Language:
     Name: '&eNombre: &2%1'
     ListAll: '&a{&eID:&c%1 &eP1:&c(%2,%3,%4) &eP2:&c(%5,%6,%7) &e(Tamaño:&c%8&e)&a}'
     RemoveLast: '&cNo se puede eliminar la última área de una residencia.'
-    NotWithinParent: '&cÁrea fuera del área principal.'
+    NotWithinParent: '&cÁrea fuera de la zona principal.'
     Update: '&eÁrea actualizada...'
     MaxPhysical: '&eHas llegado al máximo de áreas físicas permitidas para tu residencia.'
     SizeLimit: '&eEl tamaño del Área no está dentro de tus límites permitidos.'
     HighLimit: '&cNo puedes proteger a esta altura, tu límite es &6%1'
     LowLimit: '&cNo puedes proteger a esta profundidad, tu límite es &6%1'
   Select:
-    Points: '&e¡Primero selecciona dos puntos con una azada de madera antes de usar este comando!'
+    Points: "&e¡Primero selecciona dos puntos con una azada de madera antes de usar este comando!\n&7¿Necesitas ayuda?&8&l: &3https://wiki.mxball.net/servidores/survival/residencias"
     Overlap: '&c¡Los puntos seleccionados se sobreponen con la región &6%1&c!'
     WorldGuardOverlap: '&c¡Los puntos seleccionados se sobreponen con la región WorldGuard &6%1&c!'
     KingdomsOverlap: '&c¡Los puntos seleccionados se sobreponen con el terreno del reino &6%1&c!'
