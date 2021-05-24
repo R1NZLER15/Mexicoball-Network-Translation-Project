@@ -199,7 +199,7 @@ Language:
     CantCreate: '&cNo tienes permisos para crear una subzona en la residencia.'
     CantDelete: '&cNo tienes permisos para eliminar la subzona de la residencia.'
     CantDeleteNotOwnerOfParent: '&cNo eres dueño de la residencia para eliminar esta subzona.'
-    CantContract: '&cYou dont have permission to contract residence subzone.'
+    CantContract: '&cNo tienes permisos para contraer la sub zona de la residencia.'
     CantExpand: '&cNo tienes permisos para expandir la subzona de la residencia.'
     DeleteConfirm: '&e¿Estás seguro de eliminar la subzona &6%1&e ?, usa &6/res confirm &epara confirmar.'
     OwnerChange: '&eSubzona &6%1 &eEl dueño ha cambiado a &6%2'
