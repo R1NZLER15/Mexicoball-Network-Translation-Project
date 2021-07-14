@@ -274,7 +274,7 @@ Language:
     Disabled: '&cLa rent está deshabilitada...'
     DisableRenew: '&eResidence &6%1 &ewill now no longer re-rent upon expire.'
     EnableRenew: '&eResidence &6%1 &ewill now automatically re-rent upon expire.'
-    NotByYou: '&cResidence is rented not by you.'
+    NotByYou: 'La residencia &c no ha sido rentada por ti.'
     isForRent: '&2Residence available for renting.'
     MaxRentDays: '&cYou cant rent for more than &6%1 &cdays at once.'
     OneTime: '&cCan''t extend rent time for this residence.'
