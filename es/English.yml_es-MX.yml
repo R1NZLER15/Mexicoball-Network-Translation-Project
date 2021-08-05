@@ -199,7 +199,7 @@ Language:
     CantCreate: '&cNo tienes permisos para crear una subzona en la residencia.'
     CantDelete: '&cNo tienes permisos para eliminar la subzona de la residencia.'
     CantDeleteNotOwnerOfParent: '&cNo eres dueño de la residencia para eliminar esta subzona.'
-    CantContract: '&cYou dont have permission to contract residence subzone.'
+    CantContract: '&cNo tienes permisos para contraer la sub zona de la residencia.'
     CantExpand: '&cNo tienes permisos para expandir la subzona de la residencia.'
     DeleteConfirm: '&e¿Estás seguro de eliminar la subzona &6%1&e ?, usa &6/res confirm &epara confirmar.'
     OwnerChange: '&eSubzona &6%1 &eEl dueño ha cambiado a &6%2'
@@ -207,33 +207,33 @@ Language:
     DontOwn: '&eNo hay nada que mostrar'
     Hidden: ' &e(&6Ocultos&e)'
     Bought: '&eCompraste la residencia &6%1'
-    Buy: '&6%1 &ehas bought residence &6%2 &efrom you.'
-    BuyTooBig: '&cThis residence has areas bigger then your allowed max.'
+    Buy: '&6%1 &eHa comprado una residencia &6%2 &etuya.'
+    BuyTooBig: '&cEsta residencia tiene áreas mas grandes del máximo permitido.'
     NotForSale: '&cLa residencia no esta a la venta.'
     ForSale: '&eResidencia &6%1 &eya está en venta en &6%2'
     StopSelling: '&cLa residencia ya no está a la venta.'
     TooMany: '&cYa tienes el numero máximo de residencias permitido.'
-    MaxRent: '&cYou already are renting the maximum number of residences your allowed to.'
-    AlreadyRent: '&cResidence is already for rent...'
-    NotForRent: '&cResidence not for rent...'
-    NotForRentOrSell: '&cResidence not for rent or sell...'
-    NotRented: '&cResidence not rented.'
-    Unrent: '&eResidence &6%1 &ehas been unrented.'
-    RemoveRentable: '&eResidence &6%1 &eis no longer rentable.'
-    ForRentSuccess: '&eResidence &6%1 &eis now for rent for &6%2 &eevery &6%3 &edays.'
-    RentSuccess: '&eYou have rented Residence &6%1 &efor &6%2 &edays.'
-    EndingRent: '&eRent time is ending for &6%1 &eon &6%2'
-    AlreadyRented: '&eResidence &6%1 &ehas currently been rented to &6%2'
-    CantAutoPay: '&eResidence is not allowing auto pay, it will be set to &6false'
-    AlreadyExists: '&cA residence named &6%1 &calready exists.'
-    Create: '&eYou have created residence &6%1&e!'
-    Rename: '&eRenamed Residence &6%1 &eto &6%2'
+    MaxRent: '&cYa estas rentando el maximo numero de residencias permitido.'
+    AlreadyRent: '&cLa residencia ya esta en renta...'
+    NotForRent: '&cLa residencia no esta en renta...'
+    NotForRentOrSell: '&cLa residencia no esta en renta o venta...'
+    NotRented: '&cLa residencia no esta rentada.'
+    Unrent: '&eLa residencia &6%1 &eya no esta rentada.'
+    RemoveRentable: '&eLa residencia &6%1 &eya no esta en renta.'
+    ForRentSuccess: '&eLa residencia &6%1 &eesta ahora en renta por &6%2 &ecada &6%3 &edías.'
+    RentSuccess: '&eHas rentado la residencia &6%1 &epor &6%2 &edias.'
+    EndingRent: '&eEsta terminando el tiempo de renta para &6%1 &een &6%2'
+    AlreadyRented: '&eLa residencia &6%1 &eha sido rentada para &6%2'
+    CantAutoPay: '&eLa residencia no esta permitiendo el pago automatico, sera colocado como &6falso'
+    AlreadyExists: '&cEl nombre de la residencia &6%1 &cya existe.'
+    Create: '&eHas creado una residencia &6%1&e!'
+    Rename: '&eResidencia &6%1 &erenombrada a &6%2'
     Remove: '&eLa residencia &6%1 &eha sido removida...'
-    CantRemove: '&cResidence &6%1 &ccant be removed as &6%2 &csubzone is still rented by &6%3'
+    CantRemove: '&cLa residencia &6%1 &cno puede ser removida ya que la subzona &6%2 &c aun esta rentada por &6%3'
     MoveDeny: '&cNo tienes permisos de movimiento para la Residencia &6%1&c.'
     TeleportNoFlag: '&cNo tienes permisos para teletransportarte a esta residencia.'
     FlagDeny: '&cNo tienes el permiso &6%1 &cpara la residencia &6%2&c.'
-    GiveLimits: '&cCannot give residence to target player, because it is outside the target players limits.'
+    GiveLimits: '&cNo puedes dar la residencia al jugador objetivo, porque este esta fuera de los limites del jugador objetivo.'
     GiveConfirm: '&7Haz click para confirmar la transferencia de la residencia &6%1&7. De &6%2 &7a &6%3'
     Give: '&eHas transferido la residencia &6%1 &eal usuario &6%2'
     Recieve: '&eHas recibido la residencia &6%1 &edel usuario &6%2&e.'
@@ -244,13 +244,13 @@ Language:
     SetTeleportLocation: '&eUbicación de teletransporte establecida...'
     PermissionsApply: '&ePermisos aplicados a la residencia.'
     NotOwner: '&cNo eres dueño de esta residencia'
-    RemovePlayersResidences: '&eRemoved all residences belonging to player &6%1'
+    RemovePlayersResidences: '&eSe removieron todas las residencias pertenecientes al jugador &6%1'
     NotIn: '&cNo estás en una Residencia.'
     PlayerNotIn: '&cEl usuario no está dentro del área de tu residencia.'
     Kicked: '&eHas sido expulsado de la residencia.'
     CantKick: '&eNo puedes expulsar a este jugador.'
     In: '&eNo estás en la Residencia &6%1&e.'
-    OwnerChange: '&eResidence &6%1 &eowner changed to &6%2'
+    OwnerChange: '&eLa residencia &6%1 &ecambio de propietario a &6%2'
     NonAdmin: '&cNo eres administrador de la residencia.'
     Line: '&eResidencia: &6%1 '
     RentedBy: '&eRentado por: &6%1'
@@ -260,74 +260,74 @@ Language:
     CantContractResidence: '&cNo tienes permisos para contraer la residencia.'
     NoResHere: '&cNo hay ninguna residencia ahí.'
     OwnerNoPermission: '&cEl dueño no tiene permisos para esto.'
-    ParentNoPermission: '&cYou don''t have permission to make changes to the parent zone.'
+    ParentNoPermission: '&cNo tiene permiso para realizar cambios en la zona principal.'
     ChatDisabled: '&eChat de Residencia Deshabilitado...'
     DeleteConfirm: '&e¿Estás seguro de eliminar la residencia &6%1&e? Usa &6/res confirm &epara confirmar.'
     ChangedMain: '&eSe cambió la residencia principal a &6%1&e.'
-    LwcRemoved: '&eRemoved &6%1 &eLwc protections in &6%2ms'
-    CanBeRented: '&6%1&e can be rented for &6%2 &eper &6%3 &edays. &6/res market rent'
-    CanBeBought: '&6%1&e can be bought for &6%2&e. &6/res market buy'
-    IsForRent: '&6(For rent)'
-    IsForSale: '&6(For sale)'
-    IsRented: '&6(Rented)'
+    LwcRemoved: '&eLa proteccion &6%1 &eLWC se removio en &6%2ms'
+    CanBeRented: '&6%1&e puede rentarse en &6%2 &epor &6%3 &edías. &6/res market rent'
+    CanBeBought: '&6%1&e puede comprarse por &6%2&e. &6/res market buy'
+    IsForRent: '&6(en renta)'
+    IsForSale: '&6(en venta)'
+    IsRented: '&6(Rentado)'
   Rent:
-    Disabled: '&cRent is disabled...'
-    DisableRenew: '&eResidence &6%1 &ewill now no longer re-rent upon expire.'
-    EnableRenew: '&eResidence &6%1 &ewill now automatically re-rent upon expire.'
-    NotByYou: '&cResidence is rented not by you.'
-    isForRent: '&2Residence available for renting.'
-    MaxRentDays: '&cYou cant rent for more than &6%1 &cdays at once.'
-    OneTime: '&cCan''t extend rent time for this residence.'
-    Extended: '&eRent extended for aditional &6%1 &edays for &6%2 &eresidence'
-    Expire: '&eRent Expire Time: &6%1'
-    AutoPayTurnedOn: '&eAutoPay is turned &2ON'
-    AutoPayTurnedOff: '&eAutoPay is turned &cOFF'
-    ModifyDeny: '&cCannot modify a rented residence.'
-    Days: '&eRent days: &6%1'
-    Rented: ' &6(Rented)'
+    Disabled: '&cLa rent está deshabilitada...'
+    DisableRenew: '&eLa residencia &6%1 &eya no se volverá a rentar al expirar.'
+    EnableRenew: '&eLa residencia &6%1 &ese volverá a rentar automáticamente al expirar.'
+    NotByYou: '&cNo rentaste esta residencia.'
+    isForRent: '&2Residencia disponible para renta.'
+    MaxRentDays: '&cNo puedes rentar por más de &6%1 &cdías por vez.'
+    OneTime: '&cNo se pudo extender el tiempo de renta para esta residencia.'
+    Extended: '&eRenta extendida por &6%1 &edías adicionales para la residencia &6%2'
+    Expire: '&eTiempo de Expiración de renta: &6%1'
+    AutoPayTurnedOn: '&eAutoPay esta &2ON'
+    AutoPayTurnedOff: '&eAutoPay esta &cOFF'
+    ModifyDeny: '&cNo se puede modificar una residencia alquilada.'
+    Days: '&eDías de alquiler: &6%1'
+    Rented: ' &6(Rentado)'
     RentList: ' &6%1&e. &6%2 &e(&6%3&e/&6%4&e/&6%5&e) - &6%6 &6%7'
-    EvictConfirm: '&eWrite &6/res market confirm &eto evict renter from &6%1 &eresidence'
-    UnrentConfirm: '&eWrite &6/res market confirm &eto unrent &6%1 &eresidence'
-    ReleaseConfirm: '&eWrite &6/res market confirm &eto remove &6%1 &eresidence from market'
+    EvictConfirm: '&eEscribe &6/res market confirm &epara correr al inquilino de la residencia &6%1 &e'
+    UnrentConfirm: '&eEscribe &6/res market confirm &epara dejar de rentar la residencia &6%1 &e'
+    ReleaseConfirm: '&eEscribe &6/res market confirm &epara eliminar la residencia &6%1 &edel mercado'
   command:
-    addedAllow: '&eAdded new allowed command for &6%1 &eresidence'
-    removedAllow: '&eRemoved allowed command for &6%1 &eresidence'
-    addedBlock: '&eAdded new blocked command for &6%1 &eresidence'
-    removedBlock: '&eRemoved blocked command for &6%1 &eresidence'
-    Blocked: '&eBlocked commands: &6%1'
-    Allowed: '&eAllowed commands: &6%1'
+    addedAllow: '&eNuevo comando permitido en la residencia &6%1 &e'
+    removedAllow: '&eEliminado comando permitido de la residencia &6%1 &e'
+    addedBlock: '&eNuevo comando prohibido en la residencia &6%1 &e'
+    removedBlock: '&eEliminada prohibición del comando de la residencia &6%1 &e'
+    Blocked: '&eComandos bloqueados: &6%1'
+    Allowed: '&eComandos permitidos: &6%1'
   Rentable:
-    Land: '&eRentable Land: &6'
-    AllowRenewing: '&eCan Renew: &6%1'
-    StayInMarket: '&eRentable stay in market: &6%1'
-    AllowAutoPay: '&eRentable allows auto pay: &6%1'
-    DisableRenew: '&6%1 &ewill no longer renew rentable status upon expire.'
+    Land: '&eTerreno alquilable: &6'
+    AllowRenewing: '&ePuedes renovar: &6%1'
+    StayInMarket: '&eEstancia rentable en mercado: &6%1'
+    AllowAutoPay: '&eInmueble en renta permite renovación de pago automática: &6%1'
+    DisableRenew: '&6%1 &eya no renovará el pago de la renta al expirar.'
     EnableRenew: '&6%1 &ewill now automatically renew rentable status upon expire.'
   Economy:
-    LandForSale: '&eLand For Sale:'
-    NotEnoughMoney: '&cYou dont have enough money.'
-    MoneyCharged: '&eCharged &6%1 &eto your &6%2 &eaccount.'
+    LandForSale: '&eTerreno en venta:'
+    NotEnoughMoney: '&cNo tienes suficiente dinero.'
+    MoneyCharged: '&eSe cobró &6%1 &ea tu cuenta &6%2 &e.'
     MoneyAdded: '&eGot &6%1 &eto your &6%2 &eaccount.'
     MoneyCredit: '&eCredited &6%1 &eto your &6%2 &eaccount.'
-    RentReleaseInvalid: '&eResidence &6%1 &eis not rented or for rent.'
-    RentSellFail: '&cCannot sell a Residence if it is for rent.'
-    SubzoneRentSellFail: '&cCannot sell a Residence if its subzone set for rent.'
-    ParentRentSellFail: '&cCannot sell a Residence if its parent zone is for rent.'
-    SubzoneSellFail: '&cCannot sell a subzone.'
-    SellRentFail: '&cCannot rent a Residence if it is for sale.'
-    ParentSellRentFail: '&cCannot rent a Residence if its parent zone is for sale.'
-    OwnerBuyFail: '&cCannot buy your own land!'
-    OwnerRentFail: '&cCannot rent your own land!'
-    AlreadySellFail: '&eResidence already for sale!'
-    LeaseRenew: '&eLease valid until &6%1'
-    LeaseRenewMax: '&eLease renewed to maximum allowed'
-    LeaseNotExpire: '&eNo such lease, or lease does not expire.'
-    LeaseRenewalCost: '&eRenewal cost for area &6%1 &eis &6%2'
-    LeaseInfinite: '&eLease time set to infinite...'
-    MarketDisabled: '&cEconomy Disabled!'
-    SellAmount: '&eSell Amount: &2%1'
+    RentReleaseInvalid: '&eLa residencia &6%1 &eno está rentada ni en renta.'
+    RentSellFail: '&cNo se puede vender una residencia si es rentable.'
+    SubzoneRentSellFail: '&cNo se puede vender una residencia si alguna subzona es rentable.'
+    ParentRentSellFail: '&cNo se puede vender una residencia si su zona padre es rentable.'
+    SubzoneSellFail: '&cNo se puede vender una subzona.'
+    SellRentFail: '&cNo se puede rentar una residencia si está a la venta.'
+    ParentSellRentFail: '&cNo se puede rentar una residencia si su zona padre está a la venta.'
+    OwnerBuyFail: '&c¡No puedes comprar tu propio terreno!'
+    OwnerRentFail: '&c¡No puedes rentar tu propio terreno!'
+    AlreadySellFail: '&e¡La residencia ya esta a la venta!'
+    LeaseRenew: '&eConcesión válida hasta &6%1'
+    LeaseRenewMax: '&eConcesión renovada al máximo permitido'
+    LeaseNotExpire: '&eNo existe tal concesión, o la concesión no caduca.'
+    LeaseRenewalCost: '&eEl costo de renovación del área &6%1 &ees &6%2'
+    LeaseInfinite: '&eTiempo de concesión establecido a infinito...'
+    MarketDisabled: '&c¡Economía desactivada!'
+    SellAmount: '&eVender cantidad: &2%1'
     SellList: ' &6%1&e. &6%2 &e(&6%3&e) - &6%4'
-    LeaseExpire: '&eLease Expire Time: &2%1'
+    LeaseExpire: '&eTiempo de expiración de concesión: &2%1'
     LeaseList: '&6%1. &e%2 &2%3 &e%4'
   Expanding:
     North: '&eExpanding North &6%1 &eblocks'
@@ -369,7 +369,7 @@ Language:
     Cost: '&7- &eResidence Cost Per Block:&3 %1'
     Sell: '&7- &eResidence Sell Cost Per Block:&3 %1'
     Flag: '&7- &eFlag Permissions:&3 %1'
-    MaxDays: '&7- &eMax Lease Days:&3 %1'
+    MaxDays: '&7- &eDías máximos de arrendamiento:&3 %1'
     LeaseTime: '&7- &eLease Time Given on Renew:&3 %1'
     RenewCost: '&7- &eRenew Cost Per Block:&3 %1'
   Gui:
@@ -438,9 +438,9 @@ Language:
       '4': '&8%1&e (&8%2&e)'
       Likes4: '&9Likes: &8%2'
   RandomTeleport:
-    TpLimit: '&eYou can''t teleport so fast, please wait &6%1 &esec and try again'
+    TpLimit: '&eNo puedes teletransportarte tan rápido, por favor espera &6%1 &eseg y vuelve a intentarlo'
     TeleportSuccess: '&eTeleported to X:&6%1&e, Y:&6%2&e, Z:&6%3 &elocation'
-    IncorrectLocation: '&6Could not find correct teleport location, please wait &e%1 &6sec and try again.'
+    IncorrectLocation: '&6No se encontró la ubicación de teletransporte correcta, por favor espera &e%1 &6seg y vuelve a intentarlo.'
     Disabled: '&cRandom teleportation is disabled in this world'
     TeleportStarted: '&eTeleportation started, don''t move for next &6%4 &esec.'
     WorldList: '&ePossible worlds: &6%1'
@@ -450,7 +450,7 @@ Language:
     cmdPermissionColor: '&2'
   General:
     DisabledWorld: '&cResidence plugin is disabled in this world'
-    UseNumbers: '&cPlease use numbers...'
+    UseNumbers: '&cPor favor usa números...'
     #Replace all text with '' to disable this message
     CantPlaceLava: '&cYou can''t place lava outside residence and higher than &6%1 &cblock level'
     #Replace all text with '' to disable this message
@@ -488,7 +488,7 @@ Language:
     ListRemoved: '&eList removed...'
     ListCreate: '&eCreated list &6%1'
     PhysicalAreas: '&ePhysical Areas'
-    CurrentArea: '&eCurrent Area: &6%1'
+    CurrentArea: '&eÁrea actual: &6%1'
     TotalResSize: '&eTotal size: &6%1m³ (%2m²)'
     ResSize:
       eastWest: '&eEast/West: &6%1'
@@ -551,7 +551,7 @@ Language:
     Subzones: '&eSubzones'
     #The below lines represent various messages residence sends to the players.
     #Note that some messages have variables such as %1 that are inserted at runtime.
-    NewPlayerInfo: '&eIf you want to create protected area for your house, please use wooden axe to select opposite sides of your home and execute command &2/res create YourResidenceName'
+    NewPlayerInfo: '&eSi quieres crear un área protegida para tu casa, usa el hacha de madera para seleccionar los lados opuestos de tu casa y ejecutar el comando &2/res create NombreDeTuResidencia'
 CommandHelp:
   Description: Contains Help for Residence
   SubCommands:
@@ -749,9 +749,9 @@ CommandHelp:
                 - '&eUsage: &6/res market list [rent/sell]'
               SubCommands:
                 rent:
-                  Description: Lists rentable residences.
+                  Description: Lista las residencias rentables.
                   Info:
-                    - '&eUsage: &6/res market list rent'
+                    - '&eUso: &6/res market list rent'
                 sell:
                   Description: Lists for sale residences.
                   Info:
@@ -777,14 +777,14 @@ CommandHelp:
               Info:
                 - '&eUsage: &6/res market unsell [residence]'
             rent:
-              Description: ent a residence
+              Description: enta una residencia
               Info:
-                - '&eUsage: &6/res market rent [residence] <AutoPay>'
+                - '&eUso: &6/res market rent [residence] <AutoPay>'
                 - Rents a residence.  Autorenew can be either true or false.  If true, the residence will be automatically re-rented upon expire if the residence owner has allowed it.
             rentable:
-              Description: Make a residence rentable.
+              Description: Hacer una residencia rentable.
               Info:
-                - '&eUsage: &6/res market rentable [residence] [cost] [days] <AllowRenewing> <StayInMarket> <AllowAutoPay>'
+                - '&eUso: &6/res market rentable [residence] [cost] [days] <AllowRenewing> <StayInMarket> <AllowAutoPay>'
                 - Makes a residence rentable for [cost] money for every [days] number of days.
                 - If <AllowRenewing> is true, the residence will be able to be rented again before rent expires.
                 - If <StayInMarket> is true, the residence will stay in market after last renter will be removed.
@@ -798,14 +798,14 @@ CommandHelp:
               Info:
                 - '&eUsage: &6/res market payrent [residence]'
             confirm:
-              Description: Confirms residence unrent/release action
+              Description: Confirma la acción de no renta/liberación de la residencia
               Info:
                 - '&eUsage: &6/res market confirm'
             unrent:
               Description: Remove a residence from rent or rentable.
               Info:
                 - '&eUsage: &6/res market unrent [residence]'
-                - If you are the renter, this command releases the rent on the house for you.
+                - Si eres es el arrendatario, este comando libera la renta de la casa para ti.
                 - If you are the owner, this command makes the residence not for rent anymore.
         rc:
           Info:
@@ -1687,36 +1687,36 @@ CommandHelp:
           Description: Set general flags on all residences owned by particular player
         lease:
           Info:
-            - '&eUsage: &6/res lease [renew/cost] [residence]'
-            - /res lease cost will show the cost of renewing a residence lease.
-            - /res lease renew will renew the residence provided you have enough money.
-          Description: Manage residence leases
+            - '&eUso: &6/res lease [renew/cost] [residence]'
+            - /res lease cost mostrará el costo de renovar la renta de la residencia.
+            - /res lease renew renovará la renta de la residencia siempre que tengas suficiente dinero.
+          Description: Administrar residencias en renta
           SubCommands:
             set:
-              Description: Set the lease time
+              Description: Establecer el tiempo de arrendamiento
               Info:
-                - '&eUsage: &6/resadmin lease set [residence] [#days/infinite]'
-                - Sets the lease time to a specified number of days, or infinite.
+                - '&eUso: &6/resadmin lease set [residence] [#days/infinite]'
+                - Establece el tiempo de arrendamiento a un número determinado de días, o infinito.
             renew:
-              Description: Renew the lease time
+              Description: Renovar el tiempo de arrendamiento
               Info:
-                - '&eUsage: &6/resadmin lease renew <residence>'
-                - Renews the lease time for current or specified residence.
+                - '&eUso: &6/resadmin lease renew <residence>'
+                - Renueva el tiempo de arrendamiento para la residencia actual o la especificada.
             list:
-              Description: Show lease list of current residence
+              Description: Mostrar lista de arrendamientos de la residencia actual
               Info:
-                - '&eUsage: &6/resadmin lease list <residence> <page>'
-                - Prints out all subzones lease times
+                - '&eUso: &6/resadmin lease list <residence> <page>'
+                - Muestra los tiempos de arrendamiento de todas las subzonas
             expires:
-              Description: Lease end date
+              Description: Fecha de fin de arrendamiento
               Info:
-                - '&eUsage: &6/resadmin lease expires <residence>'
-                - Shows when expires residence lease time.
+                - '&eUso: &6/resadmin lease expires <residence>'
+                - Muestra cuando expira la renta de la residencia.
             cost:
-              Description: Shows renew cost
+              Description: Muestra el costo de renovación
               Info:
-                - '&eUsage: &6/resadmin lease cost <residence>'
-                - Shows how much money you need to renew residence lease.
+                - '&eUso: &6/resadmin lease cost <residence>'
+                - Muestra cuánto dinero necesitas para renovar la renta de la residencia.
         tp:
           Info:
             - '&eUsage: &6/res tp [residence]'
