@@ -1,7 +1,7 @@
 ---
 tournyCmds:
   - ''
-  - '&8]&8&m----------+&r&8[ &6&lFish Tournaments &8]&8&m+-----------&r&8['
+  - '&8]&8&m----------+&r&8[ &6&lTorneos de Pesca &8]&8&m+-----------&r&8['
   - ''
   - '&c/ft start <tournamentType> [time] &7- Starts the specified tournament.'
   - '&c/ft stop [giveRewards] &7- Stops the tournament. Gives rewards if true.'
