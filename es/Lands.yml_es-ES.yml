@@ -1,22 +1,22 @@
 ---
 general:
   prefix:
-    normal: '&8[&2Lands&8] '
-    help: '&8[&2Lands&8] &7Usage: '
-  wYes: '&aYes'
+    normal: '&8&2Terrenos&8 '
+    help: '&8&2Terrenos&8]&7Uso: '
+  wYes: '&aSi'
   wNo: '&cNo'
-  none: '&8None'
-  disabled: '&cDisabled'
-  wilderness: '&aWilderness'
-  unlimited: '&aunlimited'
+  none: '&8Ninguno'
+  disabled: '&cDesactivado'
+  wilderness: '&aSalvaje'
+  unlimited: '&aIlimitado'
   land:
     title:
-      land: '&7%level% &7of&3 %owner%&7.'
-      admin: '&7This land belongs to the server.'
-    default-area: 'Default'
+      land: '&7%level%&7del&3%owner%.'
+      admin: '&7Este terreno pertenece al servidor.'
+    default-area: 'Por defecto'
   area:
     description:
-      default: '&7New claims will belong to this area.'
+      default: '&7Los nuevos reclamos pertenecerán a esta área.'
       sub: '&7Esta es una subárea, puede tener permisos especiales y miembros.'
       rented: '&7Esta área está alquilada por el usuario {player}.'
       sold: '&7Esta área se vendió al usuario {player}.'
@@ -79,7 +79,7 @@ general:
         line-3: '&aVendido &7a'
         line-4: '&7{player}'
   autoAction:
-    claim: Chunk claim
+    claim: Reclamar Chunk
   map:
     yours: '&a▉ '
     others: '&c▉ '
@@ -87,15 +87,15 @@ general:
     current-location: '&e▉ '
     wilderness: '&2▉ '
     info:
-      wilderness: ' &2▉ &7= Wilderness'
+      wilderness: ' &2✅ &7= Salvaje'
       yours: ' &a▉ &7= Yours'
-      trusted: ' &5▉ &7= Friendly'
+      trusted: ' &5✅ &7= Amistoso'
       others: ' &c▉ &7= Others'
       position: ' &e▉ &7= Position'
     hover:
-      wilderness: '&7This chunk is wilderness. Click to claim it.'
-      yours: '&7This land is owned by you. Click to show information about land&3 {land}&7.'
-      trusted: '&7You''re trusted in this land. Click to show information about land&3 {land}&7.'
+      wilderness: '&7Este chunk está libre. Haz click para reclamarlo.'
+      yours: '&7Este terreno es de su propiedad. Haz click para mostrar la información acerca de tu terreno&3{land}&7.'
+      trusted: '&7Perteneces a esta tierra. Haz click para mostrar información acerca de el terreno&3{land}&7.'
       others: '&7You''re not trusted in this land. Click to show information about land&3 {land}&7.'
       position: '&7This is your current position.'
   inbox:
