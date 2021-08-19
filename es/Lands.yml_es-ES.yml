@@ -12,7 +12,7 @@ general:
   land:
     title:
       land: '&7%level%&7del&3%owner%.'
-      admin: '&7Esta land pertenece al servidor.'
+      admin: '&7Este terreno pertenece al servidor.'
     default-area: 'Por defecto'
   area:
     description:
@@ -49,7 +49,7 @@ general:
       line-4: '&7Saldo:&3 ${value}'
     noLand:
       line-1: ' '
-      line-2: '&cNo hay Land'
+      line-2: '&cNo hay terreno'
       line-3: '&cpara mostrar.'
       line-4: ' '
     rent:
@@ -94,8 +94,8 @@ general:
       position: ' &e▉ &7= Position'
     hover:
       wilderness: '&7Este chunk está libre. Haz click para reclamarlo.'
-      yours: '&7Este terreno es de su propiedad. Haz click para mostrar la información acerca de tu terreno&3{land}&7.'
-      trusted: '&7Perteneces a esta tierra. Haz click para mostrar información acerca de el terreno&3{land}&7.'
+      yours: '&7Este terreno es de tu propiedad. Haz click para mostrar la información acerca de tu terreno&3{land}&7.'
+      trusted: '&7Perteneces a este terreno. Haz click para mostrar la información acerca del terreno &3{land}&7.'
       others: '&7You''re not trusted in this land. Click to show information about land&3 {land}&7.'
       position: '&7This is your current position.'
   inbox:
