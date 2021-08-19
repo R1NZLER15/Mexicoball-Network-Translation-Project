@@ -12,7 +12,7 @@ general:
   land:
     title:
       land: '&7%level%&7del&3%owner%.'
-      admin: '&7Este terreno pertenece al servidor.'
+      admin: '&7Esta land pertenece al servidor.'
     default-area: 'Por defecto'
   area:
     description:
