@@ -1,14 +1,14 @@
 ---
 tournyCmds:
   - ''
-  - '&8]&8&m----------+&r&8[ &6&lFish Tournaments &8]&8&m+-----------&r&8['
+  - '&8]&8&m----------+&r&8[ &6&lTorneos de Pesca &8]&8&m+-----------&r&8['
   - ''
-  - '&c/ft start <tournamentType> [time] &7- Starts the specified tournament.'
-  - '&c/ft stop [giveRewards] &7- Stops the tournament. Gives rewards if true.'
-  - '&c/ft remove <player> &7- Removes a player from the tournament.'
-  - '&d/ft types &7- Lists the available tournament types.'
-  - '&d/ft info &7- Shows info on the current tournament.'
-  - '&d/ft time &7- Shows time till next tournament.'
+  - '&c/ft start <tournamentType> [time] &7- Inicia el torneo especificado.'
+  - '&c/ft stop [giveRewards] &7- Detiene el torneo. Da recompensas si se especifica "true".'
+  - '&c/ft remove <player> &7- Elimina a un usuario del torneo.'
+  - '&d/ft types &7- Muestra los tipos de torneos disponibles.'
+  - '&d/ft info &7- Muestra información del torneo actual.'
+  - '&d/ft time &7- Muestra tiempo hasta el próximo torneo.'
   - ''
   - '&8]&m--------------------------------------------&r&8['
   - ''
@@ -19,17 +19,17 @@ Fish:
 FishLore:
   - '&a%description%'
   - ''
-  - '&6&lInformation:'
-  - '&e➤ &2Tier: &a%tier%'
-  - '&e➤ &2Weight: &a%weight%'
-  - '&e➤ &2Price: &a$%price%'
-  - '&e➤ &2Biomes: &a%allbiomes%'
+  - '&6&lInformación:'
+  - '&e➤ &2Nivel: &a%tier%'
+  - '&e➤ &2Peso: &a%weight%'
+  - '&e➤ &2Precio: &a$%price%'
+  - '&e➤ &2Biomas: &a%allbiomes%'
   - '   &a★ &d%biome%'
-FirstCaught: '&7You were the first person to catch a(n) %fish%&7!'
-EatFish: '&7You have eaten a &bFISHNAME&7.'
+FirstCaught: '&7Has sido la primera persona en atrapar un %fish%&7.'
+EatFish: '&7Has comido un &bFISHNAME&7.'
 GUITitleColour: '&9&l'
-CaughtFish: '&7You caught a &bFISHNAME&7.'
-SellMessage: '&7You earned &bMONEYEARNED&7$ from selling &bFISHSOLD &7Fish!'
+CaughtFish: '&7Has capturado un &bFISHNAME&7.'
+SellMessage: '&7Has ganado &bMONEYEARNED&7$ por vender &bFISHSOLD&7.'
 SellFish:
   SpecialFishMoney: '&7You earned a bonus &bMONEY&7$ from selling special fish!'
 ShopTitleInformation: '&aSell Fish Here'
@@ -430,7 +430,7 @@ GUI:
         - '&7your next present.'
   Shop:
     Info:
-      Name: '&a&lInformation'
+      Name: '&a&lInformación'
       Lore:
         - '&7Put items in here then close'
         - '&7to sell the fish!'
@@ -455,7 +455,7 @@ GUI:
         - '&8&m--------------------------'
         - '&7Special Fish:'
         - '&8➤ &7Fish: &3%name%'
-        - '&8➤ &7Tier: &3%tier%'
+        - '&8➤ &7Nivel: &3%tier%'
         - '&8➤ &7Sell Multiplier: &3%multiplier%x'
         - '&8&m--------------------------'
         - '&7Resets in &3%minutes% &7minutes.'
@@ -473,7 +473,7 @@ GUI:
         - '&7This slot is locked. Unlock more space'
         - '&7using the &eIncrease Capacity &7upgrade!'
     Info:
-      Name: '&a&lInformation:'
+      Name: '&a&lInformación:'
       Lore:
         - '&7Deliveries are one of the key ways to'
         - '&7earn money and &fentropy&7!'
@@ -671,7 +671,7 @@ GUI:
       Lore:
         - '&7These are all of the &3%tier% &7fish!'
         - '&7Hover over each fish to see its info!'
-      Name: '&a&lInformation'
+      Name: '&a&lInformación'
   Scales:
     Risk:
       Lore:
@@ -945,7 +945,7 @@ GUI:
         - '&7done, you will have your own &eTotem&7.'
         - ''
         - '&7&oYou are only allowed one per player.'
-      Name: '&a&lInformation'
+      Name: '&a&lInformación'
   Gutting:
     GutForEntropy:
       Lore:
