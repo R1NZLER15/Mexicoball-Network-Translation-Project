@@ -1,17 +1,17 @@
 ---
 general:
   prefix:
-    normal: '&8&2Terrenos&8 '
-    help: '&8&2Terrenos&8]&7Uso: '
-  wYes: '&aSi'
+    normal: '&8[&2&l|&f&l|&4&l|&8] &9TERRENOS &9&l> &7'
+    help: '&8[&2&l|&f&l|&4&l|&8] &9LANDS &9&l> &7Uso&8&l: &7'
+  wYes: '&aSí'
   wNo: '&cNo'
   none: '&8Ninguno'
   disabled: '&cDesactivado'
-  wilderness: '&aSalvaje'
+  wilderness: '&aTerritorio libre'
   unlimited: '&aIlimitado'
   land:
     title:
-      land: '&7%level%&7del&3%owner%.'
+      land: '&7%level% &7de &3%owner%&7.'
       admin: '&7Este terreno pertenece al servidor.'
     default-area: 'Por defecto'
   area:
