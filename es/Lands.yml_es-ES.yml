@@ -343,7 +343,7 @@ command:
          &82. line:&7 rent &8[&7area&8]
          &83. line:&7 TIME maxTime (not required)
          &84. line:&7 costs (example: 5 = $5)
-      info: |2
+      info: |
         [NoPrefix]
         &7---------<- &5&lRent Area &7->---------
         [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
@@ -357,7 +357,7 @@ command:
       max: '&cYou can''t add any more time to your rental of area&4 {area}&c. &7The land&2 {land} &7configured a maximum of&5 {max} &7in total.'
       add: '&7You added&5 {add} &7to your rental of area&6 {area} &7for&c ${cost}&7. It will expire in&5 {time}&7.'
       success: '&7You rented area&6 {area} &7of land&2 {land} &7for&c ${cost}&7. It will expire in&5 {time}&7.'
-      info: |2
+      info: |
         [NoPrefix]
         &7---------<- &5&lRented Info &7->---------
         [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
@@ -391,7 +391,7 @@ command:
         area: '&7You bought area&6 {area} &7of land&2 {land} &7for&c ${cost}&7.'
         land: '&7You bought the land&2 {land} &7for&c ${cost}&7.'
       info:
-        area: |2
+        area: |
           [NoPrefix]
           &7---------<- &5&lBuy Area &7->---------
           [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
@@ -404,7 +404,7 @@ command:
           [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this land.[/H][C]lands view[/C][/T]
           &7Cost:&c ${cost}
           &7---------<- &5&lBuy Land &7->---------
-    sold: |2
+    sold: |
       [NoPrefix]
       &7---------<- &5&lArea Sold &7->---------
       [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
@@ -664,7 +664,7 @@ command:
     y-lock:
       enabled: '&cToggled y-lock mode: &7The land borders will no longer follow your position up and downwards.'
       disabled: '&aToggled y-lock mode: &7The land borders will follow your position up and downwards.'
-    info: |2
+    info: |
       [NoPrefix]
       &7---------<- &5&lLand View &7->---------
       [T]&7Land: &2{land} &8[&8CLICK&8][H]&7Click here to get more information about this land.[/H][C]lands info {land}[/C][/T]
@@ -676,7 +676,7 @@ command:
        &8Players:&7 {players}
        &8Description:&r {description}
       &7---------<- &5&lLand View &r&7->---------
-    area: |2
+    area: |
       [NoPrefix]
       &7---------<- &5&lArea View &7->---------
       [T]&7Land: &2{land} &8[&8CLICK&8][H]&7Click here to get more information about this land.[/H][C]lands info {land}[/C][/T]
